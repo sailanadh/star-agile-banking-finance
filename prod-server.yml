@@ -19,5 +19,5 @@
     command: sudo docker rm finance-me
     
   - name: To deploy our image on prodserver
-    command: sudo docker run -itd -p 8084:8081 --name finance-me sailanadh123/finance-me:1.0
+    command: sudo docker run -itd -p 8085:8081 --name finance-me sailanadh123/finance-me:1.0
   
