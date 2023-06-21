@@ -12,11 +12,5 @@
   - name : Start Docker Service
     command : sudo systemctl start docker
 
-  - name: stop container
-    command: sudo docker stop finance-me
-    
-  - name: remove container
-    command: sudo docker rm finance-me
-
   - name: Deploy Docker Container
     command: docker run -itd -p 8082:8081 --name finance-me sailanadh123/finance-me:1.0
